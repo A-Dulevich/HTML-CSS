@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    background-color: #ffffff;
+  
+}
+header{
+    background-image:url(../images/204398-OZ3P4A-964.jpg);
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 195px;
+  
+}
+header h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 54px;
+    line-height: 63px;
+    color: #003395;
+
+    
+}
+header p{
+    height: 25px;
+    width: 899px;
+    font-family:'Roboto', sans-serif; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+   color:  #000000;
+   margin-top: 33px;
+}
+nav{
+    
+    background-color: rgba(0, 51, 149, 1);
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+nav li{
+    display: inline-block;
+
+
+}
+.services{
+    margin-left: 62px;
+}
+nav a{
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing:2px;
+
+}
+.container {
+    max-width: 1143px;
+    margin:auto;
+}
+main{
+    padding-top: 57px;
+    padding-bottom:62px;
+}
+
+.main-right{
+    width: 33%;
+    padding-left: 34px;
+    
+    }
+ 
+  .main-left {
+    width: 63%;
+   }
+
+   .main-left , .main-right {
+    display: inline-block;
+    vertical-align: top; 
+   }
+   .welcome{
+       padding-bottom: 34px;
+   }
+    .welcome h2 {
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 27px;
+    color:  #003395;
+    border-top: 2px solid #003395;
+    border-bottom: 2px solid #003395; 
+    padding-bottom: 13px;
+    padding-top: 13px;
+    
+} 
+    .welcome-end h2 
+    {
+        font-family:'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 27px;
+        color:  #003395;
+        border-top: 2px solid #003395;
+        border-bottom: 2px solid #003395; 
+        padding-bottom: 13px;
+        padding-top: 13px;
+
+}
+
+ 
+ .welcome-end p{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    margin-top: 16px;
+    
+      color: #30233D; 
+} 
+.welcome p{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #30233D; 
+    margin-top: 16px;
+}
+
+.main-right h2{
+    font-family: 'Roboto', sans-serif;
+    background-color:  #24B0FF;
+    color: white;
+    padding-left: 14px;
+    padding-top:17px ;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 32px;
+} 
+.News{
+    padding-top: 19px;
+    padding-left: 19px;
+    padding-right: 19px;
+    border: 2px solid #33008D;
+    margin-bottom: 56px;
+    padding-bottom: 19px;
+    
+}
+.News p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.2px;
+    margin-left: 17px;
+    margin-right: 17px;  
+}
+.Some-links{
+    border: 2px solid #33008D;
+    padding-top: 19px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-bottom: 22px;
+}
+.Some-links ul{
+    list-style-type: none;
+    margin-left: 17px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.2px;
+    line-height: 163.35%;
+}
+footer{
+    
+    background: linear-gradient(180deg, #003395 0%, #00205F 100%);
+    padding-top: 45px;
+    padding-bottom: 83px;
+}
+footer p {
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.7px;
+    line-height: 163.35%;
+    color: #FCFCFC;
+    text-align: right;
+    margin-right: 23px;
+    
+}
+
+  
