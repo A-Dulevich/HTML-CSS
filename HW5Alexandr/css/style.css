@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{ position: relative;
+    background-color: rgb(74 153 211);
+}
+.container{
+    position: relative;
+    max-width: 799px;
+    margin: auto;
+    padding-top: 110px; 
+    
+
+}
+.cloud-1{
+    position: absolute;
+    width: 531px;
+    height: 134px;
+    opacity: .37;
+    top:180px;
+    left: -192px;
+    z-index:2;
+
+
+}
+.cloud-2 {
+    position: absolute;
+    width: 191px;
+    height: 117px;
+    opacity: .37;
+    top:385px;
+    left: 52px;
+    z-index:2;
+    
+}
+.cloud-3 {
+    position: absolute;
+    width: 521px;
+    height: 139px;
+    opacity: .37;
+    top:346px;
+    right:-188px;
+    z-index:2;
+    
+}
+.cloud-4 {
+    position: absolute;
+    top:110px;
+    right: -120px;
+    z-index: 3;
+    transform: translate(0,-50%);
+    
+    
+}
+.tree{
+    position: absolute;
+    top:861px;
+    right:236px;
+    z-index:2;
+}
+.social{ 
+    position: absolute;
+    width: 36px;
+    height: 106px;
+    top:110px;
+    left:-36px;
+    z-index: 3;
+}
+.social a{
+    display:block;
+    width: 36px;
+    height: 36px;
+    background-image: url(../images/icons.png);
+}
+.social div{
+    position: fixed;
+}
+.fb{
+    background-position:  0 -36px;
+}
+.vimeo{
+    background-position: 0 -72px;
+}
+
+.blue{
+    position: absolute;
+    padding-top: 60px;
+    padding-left:71px;
+    padding-right: 71px;
+    background-color: rgba(33, 63 , 100, .69);
+    z-index:2;
+    padding-bottom: 68px;
+   
+
+   
+}
+.blue h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 600;
+    
+
+
+}
+.blue h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    padding-top: 39px;
+
+
+}
+
+
+
+.blue p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+    padding-top: 28px;
+
+}
+ .p1{
+    padding-top: 35px;
+    }
+.birds{ 
+   
+   padding-top: 138px;
+   margin-bottom: 61px;
+
+
+}
+
+
+footer{
+   
+    height: 124px;
+    position: fixed;
+    background-image:url(../images/grass.png);
+    left:0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
