@@ -1,0 +1,1260 @@
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.eot');
+    src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Montserrat-Medium.ttf') format('truetype'),
+      url('../fonts/Montserrat-Medium.woff') format('woff'),
+      url('../fonts/Montserrat-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.eot');
+    src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Montserrat-Bold.ttf') format('truetype'),
+      url('../fonts/Montserrat-Bold.woff') format('woff'),
+      url('../fonts/Montserrat-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+      url('../fonts/Montserrat-Regular.woff') format('woff'),
+      url('../fonts/Montserrat-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+   %translatestyle{
+     transform: scale(1.067,1.067);
+   }
+  %hoverstyle{
+     background-color: #fff;
+       color: #333333;
+       transition-duration: 0.5s;
+  }
+    %index-h2-decoration{
+      font-family: Montserrat-Medium ;
+      font-weight: 500;
+      font-size: 1.0em;
+      line-height:1.2em;
+      text-align: center;
+      color: #FFFFFF;
+      margin-bottom: 44px;
+    }
+  %cards-general-decor{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    background-size:(100% 216px);
+    border-radius: 4px;
+  }
+  %cards-h3-decor{
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.6em;
+    line-height: 120%;
+    margin-left: 20px;
+    margin-bottom: 16px;
+
+  }
+  %cards-p-decor{
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size:0.5em;
+    line-height:143%;
+    margin-left: 20px;
+    margin-bottom: 17px;
+    width: 89%;
+     flex-grow: 1;
+  }
+  %cards-detail-decor{
+    font-family: Montserrat-Medium;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 16px;
+   opacity: 0.5;
+   margin-left: 20px;
+   margin-bottom: 0;
+   flex-grow: 0;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1138px;
+    margin: auto;
+  }
+  
+  header {
+    position: absolute;
+    width: 100%;
+    top: 29px;
+  
+  }
+  .main-bg{
+    background:linear-gradient(180deg, rgba(255, 255, 255, 0.03) 2.5%, rgba(27, 30, 34, 0.4) 42.42%, #1B1E22 80.67%), url(../images/Banner.png) ;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  
+  
+  .logo {
+    width: 183px;
+    height: 50px;
+    background-image: url(../images/Logo.png);
+  
+  }
+  
+  
+  .flex-wrapper {
+    display: flex;
+    align-items: baseline;
+    font-size: 18px;
+  
+  }
+  
+  .flex-wrapper a {
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size:0.72em;
+    color: #fff;
+  }
+  
+  .select-language {
+    display: flex;
+    width: 79px;
+    justify-content: space-between;
+    margin-left: 33px;
+    margin-right: 179px;
+  }
+  .select-language a{
+    color: rgba(196, 196, 196, 0.5);
+  }
+  .select-language a:focus{
+    color: #fff;
+  }
+  nav {
+    width: 58%;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .flex-wrapper ul a {
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.0em;
+  }
+  
+  ul li:last-child {
+    border: 1px solid #FFB800;
+    border-radius: 10px;
+    padding: 8px 33px;
+  
+  }
+  
+  .flex-wrapper-1 {
+    width: 1278px;
+    margin: auto;
+    padding-top: 241px;
+    padding-bottom: 205px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .explore-the-world {
+    width: 43%;
+    padding-left: 70px;
+    font-size: 48px;
+  }
+  
+  .explore-the-world h1 {
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.0em;
+    line-height: 121%;
+    color: #FFFFFF;
+    margin-bottom: 42px;
+  
+  }
+  
+  .explore-the-world p {
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.5em;
+    line-height: 190%;
+    color: #FFFFFF;
+  }
+  
+  form {
+    width: 40%;
+    background-color: rgba(51, 51, 51, 0.25);
+    backdrop-filter: blur(24px);
+    padding: 50px 0 55px;
+  }
+  
+  .form-container {
+    max-width:72%;
+    margin: auto;
+  }
+  
+  form p {
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+  }
+  
+  input[type="search"] {
+    display: block;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.25);
+    backdrop-filter: blur(24px);
+    color: #FFFFFF;
+    padding: 9px 9px 12px 13px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    margin-bottom: 22px;
+  
+  }
+  
+  .form-container>input[type="search"]:first-of-type::-webkit-input-placeholder {
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: url(../images/Ellipse.svg) no-repeat right;
+  }
+  
+  .when-flex-wrapper>input[type="search"] {
+    background-color: rgba(51, 51, 51, 0.25);
+    backdrop-filter: blur(24px);
+    color: #FFFFFF;
+    padding: 9px 9px 12px 13px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    margin-bottom: 22px;
+    width: 47%;
+  }
+  
+  .when-flex-wrapper>input[type="search"]::-webkit-input-placeholder {
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+  
+  select {
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.25);
+    backdrop-filter: blur(24px);
+    color: #FFFFFF;
+    padding: 9px 9px 12px 12px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    margin-bottom: 22px;
+    appearance: none;
+    background: url(../images/choose-icon.svg) no-repeat;
+    background-size: 10px;
+    background-position: 97% center;
+    cursor: pointer;
+  }
+  
+  select:focus {
+    background-color: rgba(51, 51, 51, 0.25);
+    backdrop-filter: blur(24px);
+  
+  }
+  
+  .when-flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    font-family:  Montserrat-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    background: #FFB800;
+    width: 100%;
+    border-radius: 4px;
+    color: #333333;
+    display: block;
+    border: 1px solid #FFB800;
+    border-radius: 4px;
+    padding: 9px 0 9px;
+    cursor: pointer;
+  }
+  .why-are-we{
+    padding-bottom:61px ;
+  }
+  .why-are-we-flex-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size:34px ;
+  }
+  .why-are-we h2{
+   @extend %index-h2-decoration;
+  }
+  .visa-support , .directions , .escort , .equipment {
+    width: 23%;
+  }
+  .visa-support p, .directions p, .escort p, .equipment p{
+    font-family: Montserrat-Medium ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.6em;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .visa-support::before{
+    display: block;
+    content: "";
+    height: 72px;
+    background: url(../images/visa.svg) no-repeat center;
+    margin-bottom: 17px;
+    text-align: center;
+  }
+  .directions::before{
+    display: block;
+    content: "";
+    height: 72px;
+    background: url(../images/world.svg) no-repeat center;
+    margin-bottom: 17px;
+    text-align: center;
+  }
+  .escort::before{
+    display: block;
+    content: "";
+    height: 72px;
+    background: url(../images/hunter.svg) no-repeat center;
+    margin-bottom: 17px;
+    text-align: center;
+  }
+  .equipment::before{
+    display: block;
+    content: "";
+    height: 72px;
+    background: url(../images/bbq.svg) no-repeat center;
+    margin-bottom: 17px;
+    text-align: center;
+  }
+  .actual-directions{
+    background-color: #1B1E22;
+    padding-bottom: 72px;
+    font-size: 34px;
+    line-height: 38px;
+  } 
+  
+  .actual-directions h2{
+    @extend %index-h2-decoration;
+      margin-bottom: 45px;
+  }
+  .cards{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows:repeat(2, 1fr) ;
+      grid-gap: 2vw;
+      margin-bottom: 48px;
+      font-size: 34px;
+  }
+  .card-1 {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    background: url(../images/top-left.png) #23282F no-repeat top ;
+    background-size:(100% 216px);
+    padding: 159px 0 24px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+  
+     &:hover {
+         @extend %hoverstyle;
+         @extend %translatestyle;
+     }
+     
+     .card-boddy{
+       padding-top: 16px;
+       min-height: 250px;
+       display: flex;
+       flex-direction: column;
+   
+    h3{
+        @extend %cards-h3-decor;
+    }
+    p{ @extend  %cards-p-decor;
+
+    }
+    .detail{  @extend  %cards-detail-decor;
+      
+    }
+ 
+  }
+  }
+  
+  .price-and-date{
+    height: 32px;
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    .price{
+        background-color: #FFB800;
+        font-family: Montserrat-Medium;
+        font-style: normal;
+        font-weight: 500;
+        font-size:13px;
+        line-height: 246%;
+        color: #1B1E22;
+        display: inline-block;
+        height: 32px;
+        vertical-align: top;
+        border: none;
+      }
+      .number{
+        font-family: Montserrat-Bold;
+        font-style: normal;
+        font-weight:700;
+        font-size:20px;
+        line-height: 150%;
+        color: #1B1E22;
+        display:inline-block;
+        background-color: #FFB800;
+        height:32px;
+        padding: 0 5px;
+        border: none;
+        }
+        .price-number{
+            display: block;
+            height:32px;
+          }
+          .data{
+            font-family: Montserrat-Medium;
+            font-style: normal;
+            font-weight: 500;
+            font-size:13px;
+            line-height:123%;
+            color: #FFFFFF;
+            background: rgba(27,30,34,0.75);
+            display: flex;
+            height: 32px;
+            padding: 0 11px;
+            align-items: center;
+          }
+    
+  }
+  
+
+  .card-2 {
+    @extend %cards-general-decor;
+    background: url(../images/top-middle.png)   #23282F no-repeat top;
+    padding: 159px 0 24px;
+    margin-bottom: 24px;
+    
+    &:hover {
+      @extend %hoverstyle;
+      @extend %translatestyle;
+  }
+  
+  .card-boddy{
+    padding-top: 16px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+
+ h3{
+  @extend %cards-h3-decor;
+ }
+ p{  @extend  %cards-p-decor;
+
+ }
+ .detail{
+  @extend  %cards-detail-decor;
+   
+ }
+
+}
+  }
+  .card-3 {
+    @extend %cards-general-decor;
+    background: url(../images/top-right.png)   #23282F no-repeat top;
+    padding: 159px 0 24px;
+    margin-bottom: 24px;
+    
+  
+   &:hover {
+    @extend %hoverstyle;
+    @extend %translatestyle;
+}
+
+.card-boddy{
+  padding-top: 16px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+
+h3{
+  @extend %cards-h3-decor;
+}
+p{  @extend  %cards-p-decor;
+
+}
+.detail{
+  @extend  %cards-detail-decor;
+ 
+}
+
+}
+  }
+  .card-4 {
+    @extend %cards-general-decor;
+    background: url(../images/bottom-left.png)   #23282F no-repeat top;
+    padding: 159px 0 24px; 
+   &:hover {
+    @extend %hoverstyle;
+    @extend %translatestyle;
+}
+
+.card-boddy{
+  padding-top: 16px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+
+h3{
+  @extend %cards-h3-decor;
+}
+p{  @extend  %cards-p-decor;
+}
+.detail{
+  @extend  %cards-detail-decor;
+ 
+}
+
+}
+  }
+  .card-5 {
+    @extend %cards-general-decor;
+    background: url(../images/bottom-middle.png)   #23282F no-repeat top;
+    padding: 159px 0 24px;
+
+   &:hover {
+    @extend %hoverstyle;
+    @extend %translatestyle;
+}
+
+.card-boddy{
+  padding-top: 16px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+
+h3{
+  @extend %cards-h3-decor;
+}
+p{ @extend  %cards-p-decor;
+
+}
+.detail{
+  @extend  %cards-detail-decor;
+ 
+}
+
+}
+  }
+  .card-6 {
+    @extend %cards-general-decor;
+    background: url(../images/bottom-right.png)   #23282F no-repeat top;
+    padding: 159px 0 24px;
+   &:hover {
+    @extend %hoverstyle;
+    @extend %translatestyle;
+}
+
+.card-boddy{
+  padding-top: 16px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+
+h3{
+  @extend %cards-h3-decor;
+}
+p{ @extend  %cards-p-decor;
+}
+.detail{
+ @extend %cards-detail-decor;
+}
+
+}
+  }
+  .see-all{
+    width: 100%;
+    text-align: center;
+
+    a{
+      font-family:Montserrat-Medium;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 120%;
+      color: #FFFFFF;
+      display: inline-block;
+      padding: 13px 35px;
+      border-radius: 4px;
+      border: 1px solid #FFB800;
+      text-decoration: none;
+      &:hover{
+        background-color:#FFB800 ;
+        color: black;
+        transition-duration:.5s;
+       @extend %translatestyle;
+      }
+    }
+  }
+  .clients-bg{
+  background:  url(../images/clients.png ) ;
+  background-size: cover;
+  min-height: 263px;
+  .clients-bg-work{
+    background: rgba(27, 30, 34, 0.78);
+    padding: 59px 0 75px;
+  
+  .flex-wrapper-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px 0 72px;
+    flex-wrap: wrap;
+    font-size: 78px;
+    
+    .clients ,.tours,.offices,.nine-years {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      max-width:44%;
+      min-height: 133px;
+    }
+  
+    .number{
+      font-family: Montserrat-Medium;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.0em;
+      line-height: 0.75em;
+      color: #FFB800;
+    }
+    .text{
+      font-family:  Montserrat-Medium;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 0.3em;
+      line-height: 120%;
+      color: #FFFFFF;
+    }
+    
+  }
+}
+}
+.our-blog{
+  
+  background-color: #1B1E22;
+  padding: 62px 0;
+
+  h2{
+    @extend %index-h2-decoration;
+    font-size: 34px;
+    line-height: 112%;
+    text-align: center;
+    margin-bottom: 44px;
+  }
+}
+.blog-flex-wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+  .ten-place-bg{
+    background: url(../images/ten-place.png) ;
+    width:  48%;
+    background-size: cover;
+    border-radius: 4px;
+    
+  }
+  .ten-place{
+    background-color: rgba(31, 31, 31, 0.65);
+    padding: 51px 0 311px;
+  }
+  .travel-bloger,.life-huck{
+    width: 24%;
+   
+
+  }
+}
+.ten-place{
+  color: #FFFFFF;
+
+h3{
+  font-family:  Montserrat-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 112%;
+  max-width: 521px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 28px;
+}
+p{
+    font-family:  Montserrat-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 123%;
+    text-align: center;
+
+}
+}
+
+.travel-bloger,.life-huck{
+  color: #FFFFFF;
+   background-color:#23282F;
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 21px;
+   border-radius: 4px;
+  img{
+    margin-bottom:20px ;
+    display: inline-block;
+
+  }
+  h3{
+    font-family:  Montserrat-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 14px;
+    padding: 0 26px 0 19px;
+
+  }
+  p{
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    padding: 0 26px 0 19px;
+    flex-grow: 1;
+    
+  }
+
+}
+.travel-bloger-likes,.life-huck-bloger-likes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 26px 0 19px;
+  span{
+  display: inline-block;
+  color: rgba(255, 255, 255, .5);
+  
+  img{
+    display: inline;
+    margin: 0;
+  }
+}
+}
+.slider-bg{
+  background-color: #1B1E22;
+}
+.slider{
+   color:#FFFFFF;
+   text-align: center;
+   min-height: 362px;
+   padding:0 104px 61px 107px;
+   font-size: 34px;
+   
+   h2{
+      font-family: Montserrat-Medium;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.0em;
+      line-height:112%;  
+      margin-bottom: 47px;
+      
+   }
+   p{
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7em;
+    line-height:133%;
+    color: #FFFFFF;
+   }
+   img{
+     display: inline-block;
+     border-radius: 50%;
+     margin-bottom: 30px;
+     
+   }
+   span{
+     color: #FFB800;
+     font-family: Montserrat-bold;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 16px;
+      margin-bottom: 32px;
+   }
+}
+.carousel-inner{
+  min-height: 362px;
+  
+
+}
+.carousel-indicators{
+li{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, .5);
+  
+}
+li.active{
+    background-color: #FFFFFF;
+  }
+}
+footer{
+  background-color: #1B1E22 ;  
+  min-height: 76px;
+  padding-bottom: 28px;
+  .footer-flex-wrapper{
+    color:#FFFFFF;
+    display: flex;
+    justify-content:space-around;
+  }  
+}
+.email-and-adress{
+  display: flex;
+  max-width:22%;
+  min-height: 76px;
+  flex-direction: column;
+  justify-content: space-between;
+
+  span{
+    display:inline-block;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFB800;
+  }
+  a{ display:inline-block;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: none;
+    color:#FFFFFF;
+  }
+}
+.adress{
+  display: flex;
+  min-width: 252px;
+  justify-content:space-between;
+}
+.email{
+  display: flex;
+  min-width: 252px;
+  margin-right: 20px;
+  span{
+    margin-right: 28px;
+  }
+}
+.telephones{
+  display: flex;
+  justify-content: space-between;
+  width: 19%;
+  span{
+    display:block;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFB800;
+  }
+  a{
+    display:block;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: none;
+    color:#FFFFFF;
+    
+  }
+}
+.numbers{
+  display: flex;
+  min-height: 76px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.socials{
+  display: flex;
+  width: 14%;
+  min-height: 76px;
+  flex-direction: column;
+  justify-content: space-between;
+  span{
+    display:block;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFB800;
+  }
+  .socials-icons{
+    display: flex;
+    justify-content: space-between;
+    a{
+      text-decoration: none;
+    }
+    
+  }
+}
+.toggle{
+  background-color: white;
+  padding: 5px;
+  border-radius: 3px;
+  position: fixed;
+  top: 10px;
+  right: 50px;
+  display: none;
+  z-index: 3;
+}
+@media(max-width:1282px){
+  .flex-wrapper-1{
+    max-width: 1138px;
+  }
+}
+  
+  @media(max-width:1140px){
+    .container{
+      max-width: 90%;
+    }
+    // .logo{
+    //   width: 27%;
+    // }
+    .flex-wrapper{
+      flex-wrap: wrap;
+      nav{
+        width: 70%;
+        margin: auto;
+   
+     }
+     .select-language{
+       margin-right: 20px;
+     }
+    }
+    .flex-wrapper-1{
+      max-width: 90%;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+      .explore-the-world{
+        flex-basis: 100%;
+        form{
+         width:60%;
+        }
+      }
+      .explore-the-world{
+      width:auto;
+       padding: 0;
+       height: 0;
+       margin-bottom: 10px;
+      }
+     
+      .why-are-we-flex-wrapper{
+        flex-wrap: wrap; 
+      }
+        
+   .cards{
+     flex-wrap: wrap;
+     .card-1,.card-2,.card-3,.card-4,.card-5,.card-6{
+     flex-basis:40%;
+    }
+     .card-4 {
+     margin-bottom: 24px;
+    }
+    
+   }
+   .flex-wrapper-2{
+     .nine-years, .clients ,.tours, .offices{
+       flex-basis: 50%;
+       
+     }
+     
+   }
+   .blog-flex-wrapper{
+     flex-wrap: wrap;
+    .ten-place-bg{
+      margin-bottom: 20px;
+      flex-basis: 68%;
+    
+    }
+    .life-huck{
+      margin: auto;
+    }
+    .travel-bloger{
+      margin-bottom: 20px;
+    }
+    .travel-bloger,.life-huck{
+      flex-basis:30%
+    }
+   }
+  footer{
+
+  .footer-flex-wrapper{
+     display: flex;
+    justify-content: space-between;
+   }
+  }
+   .telephones{
+     width:30%;
+   }
+   
+  
+    }  
+    @media(max-width:900px){
+      .flex-wrapper{
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      nav{
+        margin: 0%;
+        width: 100%;
+      }
+    }
+      .explore-the-world{
+        width: unset;
+         padding: 0;
+         height: 0;
+         margin-bottom: 10px;
+         text-align: center;
+        }
+
+      .visa-support,.directions,.escort,.equipment{
+           flex-basis: 45%;
+  
+        }
+        .blog-flex-wrapper{
+
+        .ten-place-bg{
+          margin-bottom: 20px;
+          flex-basis: 90%;
+        
+        }
+        .life-huck{
+          margin: auto;
+        }
+        .travel-bloger{
+          margin-bottom: 0;
+        }
+        .travel-bloger,.life-huck{
+          flex-basis:40%
+        }
+      }
+    }
+   @media(max-width:600px) {
+      nav{
+        display: none;
+      }
+      .toggle{
+        display: block;
+      }
+      .toggle:hover +  nav{
+        display: flex;
+        justify-content: flex-end;
+        ul{
+          flex-direction: column;
+          align-items: flex-end;
+        }
+        
+    }
+    .flex-wrapper-1{
+      padding: 300px 0 0;
+    }
+  
+      .explore-the-world{
+        width: unset;
+         padding: 0;
+         height: 0;
+         margin-bottom: 10px;
+         text-align: center;
+         font-size: 24px;
+        
+        }
+         form{
+           flex-basis: 70%;
+           width: auto;
+         }
+       
+        .why-are-we{
+          font-size: 24px;
+          .why-are-we-flex-wrapper{
+            font-size:24px;
+          }
+        }
+        .actual-directions{
+          font-size: 24px;
+           .cards{
+             font-size: 34px;
+           }
+             .card-1,.card-2,.card-3,.card-4,.card-5,.card-6{
+               flex-basis: 70%;
+               margin: (24px auto);
+             }
+               .card-5{
+                 margin-bottom: 24px;
+               }
+           }
+           .clients-bg .clients-bg-work .flex-wrapper-2{
+             font-size: 38px;
+             .nine-years, .clients ,.tours, .offices{
+               min-height: auto;
+             }
+           }
+           .blog-flex-wrapper{
+
+            .ten-place-bg{
+              margin-bottom: 20px;
+              flex-basis: 100%;
+            
+            }
+            
+            .travel-bloger,.life-huck{
+              flex-basis:45%;
+              margin: 0;
+            }
+          }  
+
+      .slider{
+        font-size: 24px;
+      }
+     footer .footer-flex-wrapper{
+        flex-wrap: wrap;
+        flex-basis: 50%;
+        min-height: auto;
+        .socials{
+          margin: auto;
+          span{
+            text-align: center;
+          }
+        }
+        .email-and-adress,.telephones{
+          margin-bottom: 20px;
+        }
+        .email-and-adress,.telephones,.socials{
+          min-height: auto;
+          flex-basis: 40%;
+         
+        }
+      }
+
+      }
+     @media(max-width:425px){
+       .actual-directions{
+      .card-1,.card-2,.card-3,.card-4,.card-5,.card-6{
+        flex-basis: 100%;
+      }
+    }
+   .blog-flex-wrapper{
+
+      .ten-place-bg{
+        margin-bottom: 20px;
+        flex-basis: 100%;
+        h3{
+          font-size: 18px;
+        }
+      
+      }
+      
+      .travel-bloger,.life-huck{
+        flex-basis:80%;
+        margin:  20px auto;
+        
+      
+      }
+    }
+    .slider{
+      font-size: 24px;
+      padding: 0;
+    }
+    footer .footer-flex-wrapper{
+      flex-basis: 100%;
+      .telephones{
+        justify-content: flex-start;
+        .numbers{
+          margin-left: 20px;
+          justify-content: flex-start;
+
+        }
+      }
+      .email-and-adress,.telephones{
+        flex-basis: 100%;
+      }
+    }
+     }
+     @media(max-width:375px){
+       .clients-bg{
+         display: none;
+       }
+       .blog-flex-wrapper{
+        .travel-bloger,.life-huck{
+          flex-basis:100%;
+          margin:  20px auto;
+       }
+     }
+    }
