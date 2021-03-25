@@ -1,0 +1,159 @@
+/* h1::before{
+    content:"hello";
+    display: block;
+    background-color: blue;
+}
+h1::after{
+    content: "";
+    
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius:50%;
+} */
+/* li{
+    list-style:none;
+}
+li:before{
+    content:"";
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    background-image: url(../images/star.svg);
+    background-size: contain;
+    vertical-align: middle;
+} */
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background-image: url(../images/grape.png);
+    background-repeat: no-repeat;
+    background-position: right;
+   background-color: #FFFAF3;
+   min-height: 100vh;
+}
+.container{
+    max-width: 1080px;
+    margin:auto;
+}
+header {
+    padding-top: 43px;
+    padding-bottom: 45px;
+    border-bottom:1px solid #C08D5D;
+    width: 470px;
+}
+header ul{ 
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 83px;
+    
+}
+header a:nth-child(n+2) {
+    margin-left: 53px;
+    
+}
+header span{
+    color: #C08D5D;
+
+}
+
+header img{
+    display:inline-block ;
+    vertical-align: middle;
+}
+header a  {
+    display: inline-block;
+    text-decoration: none;  
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 147.6%;
+    letter-spacing: 0.06em;
+    color:  #3F4042;;
+}
+ 
+main{
+    padding-top: 123px;
+    padding-right: 545px;
+}
+main p{
+    font-family:  'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 147.6%;
+    letter-spacing: 0.06em;
+    margin-bottom: 72px;
+    
+    
+
+}
+.food-h1{
+    font-family: 'Yeseva One', cursive;
+    text-transform: uppercase;
+    font-size: 70px;
+} 
+
+.food-h1 span::after{
+    content:"";
+    display: inline-block;
+    width: 45px;
+    height: 69px;
+    background-image:url(../images/Logo.svg);
+    vertical-align: sub;
+    background-repeat: no-repeat;
+ }
+
+
+.food-h1  span{
+text-transform: capitalize;
+font-size: 50px;
+display: block;
+}
+
+h1::after{
+    content: "";
+    display:block;
+    width: 165px;
+    height: 13px;
+    background-image:url(../images/walve.svg) ;
+    background-size: contain;
+    margin-top:32px;
+    margin-bottom: 26px;
+}
+main a{
+    display: inline-block;
+    border:  2px solid #C08D5D; 
+    text-decoration: none; 
+     padding-left: 17px;   
+     font-family: 'Open Sans', sans-serif;
+     color: #3F4042;
+     margin-bottom: 63px;
+}
+main a::after{
+    content: "";
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    background-color:#C08D5D;
+    background-image: url(../images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+}
+body::after{
+    content:"";
+    display: block;
+    background-image: url(../images/mouse.svg);
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: center;   
+    margin-bottom: 69px;
+}
+
+
