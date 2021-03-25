@@ -1,0 +1,144 @@
+*{
+        margin: 0;
+        padding: 0;
+
+}
+body{
+        background-color: rgb(176, 181, 185);
+        font-family:Arial, sans-serif;
+       
+       
+}
+header{
+        background-image: url(images/photo9.jpg);
+        background-size: cover;
+      
+}
+h1,h2{
+        font-size: 40px;
+        letter-spacing: 2px;
+        text-align: center;
+        padding-bottom: 10px;
+        
+}
+h3{
+        font-size: 30px;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+}
+.logo{
+        border:rgb(176, 181, 185)  px solid;
+        width: 45% ;
+        display: inline-block;
+        vertical-align: middle;
+        padding-bottom: 10px;
+        
+}
+.quote{ font-size: 40px;
+        font-family: cursive;
+}
+header, footer {
+        text-align: center;
+            
+}
+footer a {font-size: 30px;
+        color: chartreuse;
+        text-decoration: none;
+
+}
+main {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px; 
+        padding-right: 20px;
+        
+
+}
+p{
+        font-family: Georgia;
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+
+
+}
+a{
+        text-decoration: none; 
+        color: chartreuse;
+}
+nav a{
+        font-size: 30px;
+       color: rgb(252, 255, 248);
+       text-decoration: none;
+       padding: 10px;
+      
+}
+.services{
+        text-align: center;
+}
+.service-item{
+        text-align:center ;
+        border: orange 2px dotted;
+        width:45%;
+        display: inline-block;
+        vertical-align: top;
+        min-height: 975px;
+        padding:20px;
+        
+}
+.service-item a{
+        
+       color: chartreuse;
+       text-decoration: none;
+
+}
+.service-item-buttom{
+        text-align: center;
+        border: orange 2px dotted;
+        min-height: 975px;
+        padding:20px;
+}
+.service-item-buttom a{
+        color: chartreuse;
+        text-decoration: none;    
+}
+.service-item  img{
+        position: relative;
+        width: 698px;
+        height: 835px;
+        
+}
+.service-item-buttom img{
+        position: relative;
+        width: 698px;
+        height: 835px;
+}
+table{
+        text-align: center;
+        font-size: 20px;
+        
+
+}
+ul{
+        text-align: center;
+        font-size: 30px;
+        font-family: Georgia;
+        line-height: 40px;
+        padding-bottom: 10px;
+        
+}
+.about-middle{
+        text-align: left;
+        font-size: 20px;
+        font-family: Georgia;
+        line-height: 30px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+          
+}
+
+      
+
